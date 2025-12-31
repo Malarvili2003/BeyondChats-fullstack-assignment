@@ -1,7 +1,6 @@
-import axios from "axios";
+import articles from "../data/articles.json";
 
-const API = axios.create({
-  baseURL: "http://localhost:5000"
-});
+export const getArticles = async () => {
+  return articles;
+};
 
-export const fetchArticles = () => API.get("/articles");
