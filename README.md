@@ -85,50 +85,6 @@ The project is implemented in multiple phases as per the assignment instructions
 
 ---
 
-## Architecture Diagram
-
-+----------------------+
-|  BeyondChats Blog    |
-|  (Source Articles)   |
-+----------+-----------+
-           |
-           |  Web Scraping
-           |  (Axios + Cheerio)
-           v
-+----------------------+
-|   Scraper Service    |
-|   (Node.js Script)   |
-+----------+-----------+
-           |
-           |  Store Data
-           v
-+----------------------+
-|     MongoDB          |
-|  (Article Storage)  |
-+----------+-----------+
-           |
-           |  REST APIs
-           |  (Express.js)
-           v
-+----------------------+
-|   Backend Server     |
-|   (Express APIs)     |
-+----------+-----------+
-           |
-           |  Phase 2 Automation
-           |  (Google Search + AI)
-           v
-+----------------------+
-|  Enhanced Articles  |
-|  (Updated Content)  |
-+----------+-----------+
-           |
-           |  API Consumption
-           v
-+----------------------+
-|   React Frontend     |
-|   (Vite + Axios)    |
-+----------------------+
 
 ## Architecture Diagram
 
@@ -144,27 +100,6 @@ The project is implemented in multiple phases as per the assignment instructions
 7. React (Vite) frontend consumes APIs and displays original vs AI-enhanced articles.
 
 
-
-## Project Structure
-
-scraping-project/
-│
-├── models/
-│ └── Article.js
-├── scraper/
-│ └── scrape.js
-├── phase2/
-│ └── enhanceArticles.js
-├── frontend/
-│ └── (React app)
-├── db.js
-├── server.js
-├── .env
-├── package.json
-└── README.md
-
-
----
 
 ## System Architecture & Data Flow
 
