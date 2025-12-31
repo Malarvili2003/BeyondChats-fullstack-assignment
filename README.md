@@ -130,6 +130,18 @@ The project is implemented in multiple phases as per the assignment instructions
 |   (Vite + Axios)    |
 +----------------------+
 
+## Architecture Diagram
+
+![System Architecture Diagram](docs/drawing.jpg)
+
+**Data Flow Summary:**
+1. BeyondChats Blog acts as the source of articles.
+2. A Node.js scraper (Axios + Cheerio) extracts article data.
+3. Scraped data is stored in MongoDB.
+4. Express.js exposes REST APIs for CRUD operations.
+5. Phase 2 automation enhances articles using Google Search + AI (LLM).
+6. Enhanced articles are stored back via APIs.
+7. React (Vite) frontend consumes APIs and displays original vs AI-enhanced articles.
 
 
 
