@@ -87,19 +87,49 @@ The project is implemented in multiple phases as per the assignment instructions
 
 ## Architecture Diagram
 
-BeyondChats Blog
-      ↓
-Scraper (Axios + Cheerio)
-      ↓
-MongoDB
-      ↓
-Express APIs
-      ↓
-Phase 2 (Google + AI)
-      ↓
-Updated Articles
-      ↓
-React Frontend
++----------------------+
+|  BeyondChats Blog    |
+|  (Source Articles)   |
++----------+-----------+
+           |
+           |  Web Scraping
+           |  (Axios + Cheerio)
+           v
++----------------------+
+|   Scraper Service    |
+|   (Node.js Script)   |
++----------+-----------+
+           |
+           |  Store Data
+           v
++----------------------+
+|     MongoDB          |
+|  (Article Storage)  |
++----------+-----------+
+           |
+           |  REST APIs
+           |  (Express.js)
+           v
++----------------------+
+|   Backend Server     |
+|   (Express APIs)     |
++----------+-----------+
+           |
+           |  Phase 2 Automation
+           |  (Google Search + AI)
+           v
++----------------------+
+|  Enhanced Articles  |
+|  (Updated Content)  |
++----------+-----------+
+           |
+           |  API Consumption
+           v
++----------------------+
+|   React Frontend     |
+|   (Vite + Axios)    |
++----------------------+
+
 
 
 
