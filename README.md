@@ -154,7 +154,7 @@ This project demonstrates a complete full-stack workflow involving web scraping,
 
 ### Live Frontend Demo
 
-🔗 https://beyond-chats-fullstack-assignment-t-7a2a.vercel.app
+🔗 https://beyond-chats-fullstack-assignment-t-orcin.vercel.app/
 
 The live frontend demonstrates:
 - Original scraped articles
