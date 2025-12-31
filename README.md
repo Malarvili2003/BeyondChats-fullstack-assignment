@@ -152,7 +152,14 @@ http://localhost:5173
 This project demonstrates a complete full-stack workflow involving web scraping, database management, RESTful APIs, AI-powered content enhancement, and frontend integration using modern web technologies.
 
 
-## Live Demo
+### Live Frontend Demo
 
-Frontend Live Link:
-https://beyond-chats-fullstack-assignment-g.vercel.app
+🔗 https://beyond-chats-fullstack-assignment-t-7a2a.vercel.app
+
+The live frontend demonstrates:
+- Original scraped articles
+- AI-enhanced versions
+- Reference citations
+
+For demo stability, the frontend uses representative static data generated from the backend and AI pipeline.
+
