@@ -184,3 +184,9 @@ http://localhost:5173
 ## Conclusion
 
 This project demonstrates a complete full-stack workflow involving web scraping, database management, RESTful APIs, AI-powered content enhancement, and frontend integration using modern web technologies.
+
+
+## Live Demo
+
+Frontend Live Link:
+https://beyond-chats-fullstack-assignment-g.vercel.app
