@@ -87,19 +87,19 @@ The project is implemented in multiple phases as per the assignment instructions
 
 ## Architecture Diagram
 
-   BeyondChats Blog
-          ↓
-   Scraper (Axios + Cheerio)
-         ↓
-   MongoDB
-         ↓
-   Express APIs
-         ↓
-   Phase 2 (Google + AI)
-         ↓
-   Updated Articles
-         ↓
-   React Frontend
+BeyondChats Blog
+      ↓
+Scraper (Axios + Cheerio)
+      ↓
+MongoDB
+      ↓
+Express APIs
+      ↓
+Phase 2 (Google + AI)
+      ↓
+Updated Articles
+      ↓
+React Frontend
 
 
 
@@ -155,7 +155,7 @@ Blog Website → Scraper → MongoDB → Express APIs → Phase 2 Script → LLM
 
 ## How to Run Locally
 
-###1. Install dependencies
+### 1. Install dependencies
       ```bash
       npm install
 
